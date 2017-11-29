@@ -9,4 +9,4 @@ while i < num_faces:
 	i += 1
 log_p = log_sum - num_faces * log(num_faces)
 p = Decimal(log_p).exp()#exp(log_p)
-print p
+print str.format('{0:.3000}',p)
